@@ -10,7 +10,7 @@ dut U1 (
 );
 
 initial begin
-  $dumpfile("xor.vcd")
-  $dumpvars
+  $dumpfile("xor.vcd");
+  $dumpvars;
 end
 endmodule
