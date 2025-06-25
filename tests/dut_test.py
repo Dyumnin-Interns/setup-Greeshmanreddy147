@@ -10,5 +10,5 @@ async def dut_test(dut):
 for i in  range(4):
     dut.a.value = a[i]
     dut.b.value = b[i]
-    await Timer(1,"ns")
-    assert dut.y.value == y[i]
+    await Timer(1,"ns");
+    assert dut.y.value == y[i],f"error at iteration {i}"
