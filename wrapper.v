@@ -3,7 +3,7 @@ module xor_gate(
   input wire b,
   output wire y
 );
-xor_gate U1 (
+dut U1 (
   .a(a),
   .b(b),
   .y(y)
